@@ -95,7 +95,9 @@ else:
     pass
 
 
+#"10+1*2"
 
+#[1,0,"+",1,"*",2]
 
 '''
     while '*' in user_operators:
