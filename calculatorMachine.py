@@ -91,9 +91,21 @@ else:
         else:
             pass
 
+    
+    for element in user_formula_parenthesis:
+        element_numbers_length = len(re.findall('[\d]+',element))
+        element_operators_length = len(re.findall(operators,element))
+        print(element_numbers_length, element_operators_length)
+
+        
+
+
     print(user_formula_parenthesis)
+    #print(re.findall('[\d]+',user_input))
+    
     pass
 
+#1+1+(1+1+(1+1))+1
 
 #"10+1*2"
 
