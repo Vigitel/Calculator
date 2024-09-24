@@ -29,18 +29,18 @@ if not re.search('[()]',user_input):
     print(user_numbers, user_operators)
 
     def math_operation(int_input_1,int_input_2,operation_symbol):
-        int_answer = int()
+        int_answer = float()
         if operation_symbol == "*":
-            int_answer =  int(int_input_1) * int(int_input_2) 
+            int_answer =  float(int_input_1) * float(int_input_2) 
 
         elif operation_symbol == "/":
-            int_answer = int(int_input_1) / int(int_input_2)
+            int_answer = float(int_input_1) / float(int_input_2)
 
         elif operation_symbol == "+":
-            int_answer = int(int_input_1) + int(int_input_2)
+            int_answer = float(int_input_1) + float(int_input_2)
 
         elif operation_symbol == "-":
-            int_answer = int(int_input_1) - int(int_input_2)
+            int_answer = float(int_input_1) - float(int_input_2)
 
         return int_answer
 
